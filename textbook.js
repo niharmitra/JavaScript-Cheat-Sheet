@@ -1,4 +1,9 @@
-
+/*
+HOW TO USE THIS:
+Fuzzy search in sublime by hitting Command-P, enter # before search query
+Straight up search with Command-F to find syntax
+Keywords are commented in to help searches
+*/
 
 /*FUNCTIONS
 *Creating Functions
