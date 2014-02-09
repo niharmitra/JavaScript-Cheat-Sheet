@@ -30,8 +30,12 @@ Usage:
 //general syntax (remove the quotes)
 var reg_exp = "/exp/modifiers";
 
-//example modifiers
-reg_exp = /fjdska/g;
+//example modifiers follow
+
+//does a global search, returning all instances instead of just the first
+reg_exp = /search/g;
+//does a case-insensitive search
+reg_exp = /expression/i;
 
 /*STRINGS
 *String Object
