@@ -79,10 +79,40 @@ string.slice(index_s, index_e);
 string.toUpperCase();
 string.toLowerCase();
 
+//converts string to number
+parseFloat(string);
+parseInt(string);
+
 /*
 *MATH
 */
 
-var float = 1.000;
+var float_num = 1.000;
+var num_1 = 10;
+var num_2 = 15;
 
-Math.floor(float);
+//constants
+Math.E
+Math.PI
+Math.SQRT2
+//sqrt of 1/2
+Math.SQRT1_2
+Math.LN2
+Math.LN10
+//log base 2 and log base 10 respectively
+Math.LOG2E
+Math.LOG10E
+
+//basic functions
+Math.sqrt(float_num);
+Math.max(num_1, num_2);
+Math.min(num_1, num_2);
+
+Math.floor(float_num);
+Math.round(float_num);
+
+//to get random number between 0 and 1 (inclusive)
+Math.random();
+//multiply by numbers to get wider range, use Math.floor to get integers, etc
+//this gives a random integer between 0 and 10
+Math.floor(Math.random()*10);
